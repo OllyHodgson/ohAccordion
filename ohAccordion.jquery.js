@@ -35,7 +35,7 @@
 
             this.each(function(i,elm) {
 
-                $(elm).addClass("accordion-js").attr("role", "tablist");
+                $(elm).addClass("js").attr("role", "tablist");
 
                 /*  Cache this so we don't need to look it up over and over again */
                 var winLocHash, parentClosed;
